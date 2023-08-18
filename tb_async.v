@@ -15,14 +15,14 @@ Async_fifo  af(rd_data,
 
 always begin
 
-#10  clk_wr <= ~clk_wr ;
+#5 clk_wr <= ~clk_wr ;
 
  
 end
 
 always begin
 
-#35  clk_rd <= ~clk_rd ;
+#25  clk_rd <= ~clk_rd ;
   
 
 end
